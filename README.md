@@ -70,6 +70,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/shanmukhrvl})
-- Twitter [@your-twitter](https://{twitter.com/shanmukhrvl})
+- Website [shanmukhrvl.netlify.app](https://shanmukhrvl.netlify.app)
+- GitHub [@shanmukhrvl](https://github.com/shanmukhrvl)
+- Twitter [@shanmukhrvl](https://twitter.com/shanmukhrvl)
