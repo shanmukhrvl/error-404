@@ -28,14 +28,14 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/shanmukhrvl/error-404-page/main/Screenshot-404-NOT-FOUND.png?raw=true)
 
 - You can see the demo [here](https://errorpage-demo.netlify.app/)
 
