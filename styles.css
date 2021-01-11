@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Space Mono", monospace;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 100%;
+    margin: auto;
+}
+
+.header__title {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    line-height: 1.5rem;    
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 1.5rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main__img img {
+    width: 280px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.main__info h1 {
+    font-size: 3rem;
+    line-height: 71px;
+    letter-spacing: -0.035rem;
+    color: #333333;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.main__info p {
+    font-size: 1rem;
+    line-height: 27px;
+    letter-spacing: -0.035rem;
+    color: #4f4f4f;
+    margin: 1.5rem;
+}
+
+.main__info button {
+    font-family: "Space Mono", monospace;
+    font-size: 1rem;
+    line-height: 21px;
+    letter-spacing: -0.035rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #333333;    
+    cursor: pointer;
+    padding: 1.125rem 2.5rem;
+    margin: auto 1.5rem;
+    border: none;
+}
+
+.main__info button:active, .main__info button:focus {
+    outline: none;
+}
+
+.footer {
+    text-align: center;
+    margin-top: auto;
+}
+
+@media (min-width: 650px) {
+    .container {
+        padding: 2.5rem;
+    }
+
+    .main {
+        margin: auto;
+    }
+    .main__img {
+        width: 50%;
+        
+    }
+
+    .main__img img {
+        width: 540px;
+        max-width: 100%;
+    }
+
+    .main__info {
+        margin: auto;
+        width: 50%;
+    }
+
+    .main__info h1 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .main__info p {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+}
